@@ -1,0 +1,21 @@
+w spmfw /a/parts/spmfw-verified.img
+w scp1 /a/parts/scp-verified.img
+w sspm_1 /a/parts/sspm-verified.img
+w gz1 /a/parts/gz-verified.img
+w tee1 /a/parts/tee-verified.img
+w tzar /a/parts/tzar.img
+w dpm_1 /a/parts/dpm-verified.img
+w mcupm_1 /a/parts/mcupm-verified.img
+w pi_img /a/parts/pi_img-verified.img
+w md1img /a/parts/md1img.img
+r spmfw /a/verify/spmfw.vfy --length 0x4000
+r scp1 /a/verify/scp1.vfy --length 0x98000
+r sspm_1 /a/verify/sspm_1.vfy --length 0x89000
+r gz1 /a/verify/gz1.vfy --length 0x320000
+r tee1 /a/verify/tee1.vfy
+r tzar /a/verify/tzar.vfy --length 0x2F0000
+r dpm_1 /a/verify/dpm_1.vfy --length 0x25000
+r mcupm_1 /a/verify/mcupm_1.vfy --length 0x66000
+r pi_img /a/verify/pi_img.vfy --length 0x2000
+r md1img /a/verify/md1img.vfy --length 0x3800000
+reset

@@ -1,0 +1,13 @@
+*.img
+*.tar
+*.tar.md5
+*.lz4
+*.bin
+*.cur
+*.vfy
+__pycache__/
+logs/
+dumps/
+parts/
+verify/
+*.log

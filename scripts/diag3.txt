@@ -1,0 +1,12 @@
+r spmfw /a/dumps/spmfw.cur
+r scp1 /a/dumps/scp1.cur
+r sspm_1 /a/dumps/sspm_1.cur
+r gz1 /a/dumps/gz1.cur
+r tee1 /a/dumps/tee1.cur
+r tzar /a/dumps/tzar.cur
+r dpm_1 /a/dumps/dpm_1.cur
+r mcupm_1 /a/dumps/mcupm_1.cur
+r pi_img /a/dumps/pi_img.cur
+r uh /a/dumps/uh.cur
+r seccfg /a/dumps/seccfg.cur
+r proinfo /a/dumps/proinfo.cur

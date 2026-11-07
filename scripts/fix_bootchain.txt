@@ -1,0 +1,11 @@
+w init_boot /a/parts/init_boot.img
+w vendor_boot /a/parts/vendor_boot.img
+w recovery /a/parts/recovery.img
+w dtbo /a/parts/dtbo.img
+w vbmeta_system /a/parts/vbmeta_system.img
+r init_boot /a/verify/init_boot.vfy
+r vendor_boot /a/verify/vendor_boot.vfy
+r recovery /a/verify/recovery.vfy
+r dtbo /a/verify/dtbo.vfy --length 0x10000
+r vbmeta_system /a/verify/vbmeta_system.vfy
+reset

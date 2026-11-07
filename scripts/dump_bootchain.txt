@@ -1,0 +1,12 @@
+r boot /a/dumps/boot.cur
+r init_boot /a/dumps/init_boot.cur
+r vendor_boot /a/dumps/vendor_boot.cur
+r recovery /a/dumps/recovery.cur
+r dtbo /a/dumps/dtbo.cur --length 0x10000
+r vbmeta /a/dumps/vbmeta.cur
+r vbmeta_system /a/dumps/vbmeta_system.cur
+r vbmeta_vendor /a/dumps/vbmeta_vendor.cur
+r lk /a/dumps/lk.cur
+r param /a/dumps/param.cur
+r up_param /a/dumps/up_param.cur
+r misc /a/dumps/misc.cur --length 0x2000

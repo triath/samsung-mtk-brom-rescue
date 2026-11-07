@@ -1,0 +1,3 @@
+w super /a/parts/super_raw.img
+r super /a/verify/super2.vfy --length 0x264800000
+reset
